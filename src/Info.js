@@ -24,8 +24,8 @@ useEffect(()=>{
   return (
 <>
  
-    <div  className='m-3 ' style={{width:'36vw' ,display:'flex',flexDirection:'column',alignItems:'center' }}  >
-    <img src={data?.sprites?.back_default} className='rounded-circle' style={{width:'20vw',height:'20vw'}} value={id} onClick={(e) => handelShowDetail(e,id)}/>
+    <div  className='m-3 ' style={{width:'36vw' ,display:'flex',flexDirection:'column',alignItems:'center' }} value={id} onClick={(e) => handelShowDetail(e,id)}  >
+    <img src={data?.sprites?.back_default} className='rounded-circle' style={{width:'20vw',height:'20vw'}}  />
   <h1 style={{fontWeight:'600',fontSize:'4vw',color:'#3495e1'}}>{name}</h1>
 
     </div>
